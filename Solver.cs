@@ -6,7 +6,7 @@ public class Solver
         _numberOfSolutions = numberOfSolutions;
     }
 
-    public int add(int number)
+    public int Add(int number)
     {
         return _numberOfSolutions + number;
     }
