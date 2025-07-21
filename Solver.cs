@@ -1,3 +1,13 @@
-public class Solver 
+public class Solver
 {
+    private int _numberOfSolutions;
+    public Solver(int numberOfSolutions)
+    {
+        _numberOfSolutions = numberOfSolutions;
+    }
+
+    public int Add(int number)
+    {
+        return _numberOfSolutions + number;
+    }
 }
