@@ -1,0 +1,52 @@
+# Build directories
+**/bin/
+**/obj/
+
+# Configuration directories
+Debug/
+Release/
+x64/
+x86/
+[Aa][Rr][Mm]/
+.vs/
+.vscode/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet and packages
+*.nupkg
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# Logs, DBs, pdbs
+*.log
+*.dbmdl
+*.pdb
+
+# Test results & coverage
+TestResults/
+coverage/
+
+# Misc OS junk
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Legacy project files
+project.lock.json
+project.fragment.lock.json
+
+# Artifacts
+artifacts/
+
+# Optional Rider/Resharper
+.idea/
+*.sln.iml
+*_ReSharper*/
+*.DotSettings.user
