@@ -15,4 +15,9 @@ public class Solver
     {
         return _numberOfSolutions - number;
     }
+
+    public int Multiply(int number)
+    {
+        return _numberOfSolutions * number;
+    }   
 }
