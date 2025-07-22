@@ -19,7 +19,7 @@ public class Solver
     public int Multiply(int number)
     {
         return _numberOfSolutions * number;
-    }   
+    }
     public int Divide(int number)
     {
         if (number == 0)
@@ -28,4 +28,9 @@ public class Solver
         }
         return _numberOfSolutions / number;
     }
+    
+    public void ChangeNumberOfSolutions(int newNumber)
+    {
+        _numberOfSolutions = newNumber;
+    }   
 }
