@@ -28,9 +28,17 @@ public class Solver
         }
         return _numberOfSolutions / number;
     }
-    
+
     public void ChangeNumberOfSolutions(int newNumber)
     {
-        _numberOfSolutions = newNumber;
-    }   
+        if (newNumber <= 0)
+        {
+            _numberOfSolutions = 1; // Default to 1 if invalid input
+            Console.WriteLine("Invalid number of solutions provided. Defaulting to 1.");
+        }
+        else
+        {
+            _numberOfSolutions = newNumber;
+        }
+    }
 }
