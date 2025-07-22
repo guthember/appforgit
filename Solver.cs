@@ -20,4 +20,12 @@ public class Solver
     {
         return _numberOfSolutions * number;
     }   
+    public int Divide(int number)
+    {
+        if (number == 0)
+        {
+            throw new DivideByZeroException("Cannot divide by zero.");
+        }
+        return _numberOfSolutions / number;
+    }
 }
